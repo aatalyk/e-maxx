@@ -9,10 +9,25 @@
 /* Begin PBXBuildFile section */
 		84013C481EFD100800FA12B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84013C471EFD100800FA12B4 /* main.m */; };
 		84013C4B1EFD100800FA12B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84013C4A1EFD100800FA12B4 /* AppDelegate.m */; };
-		84013C4E1EFD100800FA12B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84013C4D1EFD100800FA12B4 /* ViewController.m */; };
-		84013C511EFD100800FA12B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84013C4F1EFD100800FA12B4 /* Main.storyboard */; };
 		84013C531EFD100800FA12B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84013C521EFD100800FA12B4 /* Assets.xcassets */; };
 		84013C561EFD100800FA12B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84013C541EFD100800FA12B4 /* LaunchScreen.storyboard */; };
+		84013C601EFD33D700FA12B4 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 84013C5F1EFD33D700FA12B4 /* images */; };
+		840FF2851EFFE83B00B6C59A /* ChapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840FF2841EFFE83B00B6C59A /* ChapterViewController.m */; };
+		8467CFB51EFEDC85002BC233 /* ChapterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467CFB41EFEDC85002BC233 /* ChapterView.m */; };
+		8467CFB81EFEDE47002BC233 /* ChapterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467CFB71EFEDE47002BC233 /* ChapterCollectionViewCell.m */; };
+		8467CFBB1EFEDFED002BC233 /* TopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467CFB91EFEDFED002BC233 /* TopicTableViewCell.m */; };
+		8467CFBE1EFEECC6002BC233 /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467CFBD1EFEECC6002BC233 /* UIColor+CustomColor.m */; };
+		8478BF061F06E89F001C5A1B /* emaxx.json in Resources */ = {isa = PBXBuildFile; fileRef = 8478BF051F06E89F001C5A1B /* emaxx.json */; };
+		8478BF081F06EDC6001C5A1B /* RisingSun-Bold.sfd in Resources */ = {isa = PBXBuildFile; fileRef = 8478BF071F06EDC6001C5A1B /* RisingSun-Bold.sfd */; };
+		8478BF0B1F06EDE0001C5A1B /* RisingSun-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8478BF0A1F06EDD7001C5A1B /* RisingSun-Black.otf */; };
+		8478BF0C1F06EDE4001C5A1B /* RisingSun-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8478BF091F06EDCF001C5A1B /* RisingSun-Bold.otf */; };
+		84E3A40E1EFE606100262218 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E3A40D1EFE606100262218 /* MainViewController.m */; };
+		84E3A4111EFE64A700262218 /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E3A4101EFE64A700262218 /* Algorithm.m */; };
+		84FF4E001EFE6A3600D385EA /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF4DFE1EFE6A3600D385EA /* MainView.m */; };
+		84FF4E091EFE6F1E00D385EA /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF4E081EFE6F1E00D385EA /* TopicViewController.m */; };
+		84FF4E0C1EFE6F3C00D385EA /* TopicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF4E0B1EFE6F3C00D385EA /* TopicView.m */; };
+		84FF4E0F1EFE99A600D385EA /* UIFont+CustomFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF4E0E1EFE99A600D385EA /* UIFont+CustomFont.m */; };
+		84FF4E131EFE9A0700D385EA /* RisingSun-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 84FF4E121EFE9A0700D385EA /* RisingSun-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +35,37 @@
 		84013C471EFD100800FA12B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84013C491EFD100800FA12B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		84013C4A1EFD100800FA12B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84013C4C1EFD100800FA12B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84013C4D1EFD100800FA12B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		84013C501EFD100800FA12B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84013C521EFD100800FA12B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84013C551EFD100800FA12B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84013C571EFD100800FA12B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84013C5F1EFD33D700FA12B4 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		840FF2831EFFE83B00B6C59A /* ChapterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterViewController.h; sourceTree = "<group>"; };
+		840FF2841EFFE83B00B6C59A /* ChapterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterViewController.m; sourceTree = "<group>"; };
+		8467CFB31EFEDC85002BC233 /* ChapterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterView.h; sourceTree = "<group>"; };
+		8467CFB41EFEDC85002BC233 /* ChapterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterView.m; sourceTree = "<group>"; };
+		8467CFB61EFEDE47002BC233 /* ChapterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChapterCollectionViewCell.h; sourceTree = "<group>"; };
+		8467CFB71EFEDE47002BC233 /* ChapterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChapterCollectionViewCell.m; sourceTree = "<group>"; };
+		8467CFB91EFEDFED002BC233 /* TopicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicTableViewCell.m; sourceTree = "<group>"; };
+		8467CFBA1EFEDFED002BC233 /* TopicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableViewCell.h; sourceTree = "<group>"; };
+		8467CFBC1EFEECC6002BC233 /* UIColor+CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColor.h"; sourceTree = "<group>"; };
+		8467CFBD1EFEECC6002BC233 /* UIColor+CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		8478BF051F06E89F001C5A1B /* emaxx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emaxx.json; sourceTree = "<group>"; };
+		8478BF071F06EDC6001C5A1B /* RisingSun-Bold.sfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "RisingSun-Bold.sfd"; sourceTree = "<group>"; };
+		8478BF091F06EDCF001C5A1B /* RisingSun-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RisingSun-Bold.otf"; sourceTree = "<group>"; };
+		8478BF0A1F06EDD7001C5A1B /* RisingSun-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RisingSun-Black.otf"; sourceTree = "<group>"; };
+		84E3A40C1EFE606100262218 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		84E3A40D1EFE606100262218 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		84E3A40F1EFE64A700262218 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		84E3A4101EFE64A700262218 /* Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
+		84FF4DFE1EFE6A3600D385EA /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		84FF4DFF1EFE6A3600D385EA /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		84FF4E071EFE6F1E00D385EA /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
+		84FF4E081EFE6F1E00D385EA /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		84FF4E0A1EFE6F3C00D385EA /* TopicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicView.h; sourceTree = "<group>"; };
+		84FF4E0B1EFE6F3C00D385EA /* TopicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicView.m; sourceTree = "<group>"; };
+		84FF4E0D1EFE99A600D385EA /* UIFont+CustomFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CustomFont.h"; sourceTree = "<group>"; };
+		84FF4E0E1EFE99A600D385EA /* UIFont+CustomFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CustomFont.m"; sourceTree = "<group>"; };
+		84FF4E121EFE9A0700D385EA /* RisingSun-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RisingSun-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +98,11 @@
 		84013C451EFD100800FA12B4 /* e-maxx.ru */ = {
 			isa = PBXGroup;
 			children = (
-				84013C491EFD100800FA12B4 /* AppDelegate.h */,
-				84013C4A1EFD100800FA12B4 /* AppDelegate.m */,
-				84013C4C1EFD100800FA12B4 /* ViewController.h */,
-				84013C4D1EFD100800FA12B4 /* ViewController.m */,
-				84013C4F1EFD100800FA12B4 /* Main.storyboard */,
-				84013C521EFD100800FA12B4 /* Assets.xcassets */,
-				84013C541EFD100800FA12B4 /* LaunchScreen.storyboard */,
-				84013C571EFD100800FA12B4 /* Info.plist */,
+				84FF4E031EFE6CFF00D385EA /* Model */,
+				84FF4E011EFE6CDB00D385EA /* View */,
+				84FF4E021EFE6CEB00D385EA /* Controller */,
+				843BE5BC1F03780C0046E5E5 /* Resources */,
+				84013C5F1EFD33D700FA12B4 /* images */,
 				84013C461EFD100800FA12B4 /* Supporting Files */,
 			);
 			path = "e-maxx.ru";
@@ -74,9 +111,69 @@
 		84013C461EFD100800FA12B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8478BF0A1F06EDD7001C5A1B /* RisingSun-Black.otf */,
+				8478BF091F06EDCF001C5A1B /* RisingSun-Bold.otf */,
+				8478BF071F06EDC6001C5A1B /* RisingSun-Bold.sfd */,
+				84FF4E121EFE9A0700D385EA /* RisingSun-Regular.otf */,
 				84013C471EFD100800FA12B4 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		843BE5BC1F03780C0046E5E5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				84FF4E0D1EFE99A600D385EA /* UIFont+CustomFont.h */,
+				84FF4E0E1EFE99A600D385EA /* UIFont+CustomFont.m */,
+				8467CFBC1EFEECC6002BC233 /* UIColor+CustomColor.h */,
+				8467CFBD1EFEECC6002BC233 /* UIColor+CustomColor.m */,
+				84013C521EFD100800FA12B4 /* Assets.xcassets */,
+				84013C541EFD100800FA12B4 /* LaunchScreen.storyboard */,
+				84013C571EFD100800FA12B4 /* Info.plist */,
+				8478BF051F06E89F001C5A1B /* emaxx.json */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		84FF4E011EFE6CDB00D385EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84FF4DFF1EFE6A3600D385EA /* MainView.h */,
+				84FF4DFE1EFE6A3600D385EA /* MainView.m */,
+				84FF4E0A1EFE6F3C00D385EA /* TopicView.h */,
+				84FF4E0B1EFE6F3C00D385EA /* TopicView.m */,
+				8467CFB31EFEDC85002BC233 /* ChapterView.h */,
+				8467CFB41EFEDC85002BC233 /* ChapterView.m */,
+				8467CFBA1EFEDFED002BC233 /* TopicTableViewCell.h */,
+				8467CFB91EFEDFED002BC233 /* TopicTableViewCell.m */,
+				8467CFB61EFEDE47002BC233 /* ChapterCollectionViewCell.h */,
+				8467CFB71EFEDE47002BC233 /* ChapterCollectionViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		84FF4E021EFE6CEB00D385EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84013C491EFD100800FA12B4 /* AppDelegate.h */,
+				84013C4A1EFD100800FA12B4 /* AppDelegate.m */,
+				84E3A40C1EFE606100262218 /* MainViewController.h */,
+				84E3A40D1EFE606100262218 /* MainViewController.m */,
+				84FF4E071EFE6F1E00D385EA /* TopicViewController.h */,
+				84FF4E081EFE6F1E00D385EA /* TopicViewController.m */,
+				840FF2831EFFE83B00B6C59A /* ChapterViewController.h */,
+				840FF2841EFFE83B00B6C59A /* ChapterViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		84FF4E031EFE6CFF00D385EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84E3A40F1EFE64A700262218 /* Algorithm.h */,
+				84E3A4101EFE64A700262218 /* Algorithm.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +207,7 @@
 				TargetAttributes = {
 					84013C421EFD100800FA12B4 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = SQGZ5MNAN6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,9 +235,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84013C601EFD33D700FA12B4 /* images in Resources */,
+				8478BF0C1F06EDE4001C5A1B /* RisingSun-Bold.otf in Resources */,
+				8478BF081F06EDC6001C5A1B /* RisingSun-Bold.sfd in Resources */,
 				84013C561EFD100800FA12B4 /* LaunchScreen.storyboard in Resources */,
+				8478BF061F06E89F001C5A1B /* emaxx.json in Resources */,
+				8478BF0B1F06EDE0001C5A1B /* RisingSun-Black.otf in Resources */,
+				84FF4E131EFE9A0700D385EA /* RisingSun-Regular.otf in Resources */,
 				84013C531EFD100800FA12B4 /* Assets.xcassets in Resources */,
-				84013C511EFD100800FA12B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +253,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84013C4E1EFD100800FA12B4 /* ViewController.m in Sources */,
+				8467CFB51EFEDC85002BC233 /* ChapterView.m in Sources */,
+				84FF4E0C1EFE6F3C00D385EA /* TopicView.m in Sources */,
+				84FF4E0F1EFE99A600D385EA /* UIFont+CustomFont.m in Sources */,
+				8467CFB81EFEDE47002BC233 /* ChapterCollectionViewCell.m in Sources */,
+				84E3A4111EFE64A700262218 /* Algorithm.m in Sources */,
 				84013C4B1EFD100800FA12B4 /* AppDelegate.m in Sources */,
+				84FF4E091EFE6F1E00D385EA /* TopicViewController.m in Sources */,
+				84E3A40E1EFE606100262218 /* MainViewController.m in Sources */,
 				84013C481EFD100800FA12B4 /* main.m in Sources */,
+				840FF2851EFFE83B00B6C59A /* ChapterViewController.m in Sources */,
+				8467CFBB1EFEDFED002BC233 /* TopicTableViewCell.m in Sources */,
+				8467CFBE1EFEECC6002BC233 /* UIColor+CustomColor.m in Sources */,
+				84FF4E001EFE6A3600D385EA /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84013C4F1EFD100800FA12B4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84013C501EFD100800FA12B4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84013C541EFD100800FA12B4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -270,10 +375,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SQGZ5MNAN6;
 				INFOPLIST_FILE = "e-maxx.ru/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calc.aakash.e-maxx-ru";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -281,10 +389,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SQGZ5MNAN6;
 				INFOPLIST_FILE = "e-maxx.ru/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.calc.aakash.e-maxx-ru";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -307,6 +418,7 @@
 				84013C5C1EFD100800FA12B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
