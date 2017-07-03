@@ -32,6 +32,8 @@
     self.titleLabel.textAlignment = NSTextAlignmentCenter;
     self.titleLabel.font = [UIFont risingSunBold];
     self.titleLabel.textColor = [UIColor redTextColor];
+    self.titleLabel.minimumScaleFactor = 0.5;
+    self.titleLabel.adjustsFontSizeToFitWidth = YES;
     [self.titleLabel setTranslatesAutoresizingMaskIntoConstraints:NO];
     [self addSubview:self.titleLabel];
 }
