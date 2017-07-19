@@ -12,6 +12,7 @@
 @interface ChapterView : UIView
 
 @property (strong, nonatomic) Algorithm *algorithm;
+@property (strong, nonatomic) UIScrollView *scrollView;
 @property (strong, nonatomic) UIWebView *webView;
 
 -(void)loadContent;

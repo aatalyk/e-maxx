@@ -16,12 +16,12 @@
 		8467CFB51EFEDC85002BC233 /* ChapterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467CFB41EFEDC85002BC233 /* ChapterView.m */; };
 		8467CFBB1EFEDFED002BC233 /* TopicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467CFB91EFEDFED002BC233 /* TopicTableViewCell.m */; };
 		8467CFBE1EFEECC6002BC233 /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467CFBD1EFEECC6002BC233 /* UIColor+CustomColor.m */; };
+		846B97AE1F1F6BE8007200CC /* emaxx.json in Resources */ = {isa = PBXBuildFile; fileRef = 846B97AD1F1F6BE8007200CC /* emaxx.json */; };
 		8478BF081F06EDC6001C5A1B /* RisingSun-Bold.sfd in Resources */ = {isa = PBXBuildFile; fileRef = 8478BF071F06EDC6001C5A1B /* RisingSun-Bold.sfd */; };
 		8478BF0B1F06EDE0001C5A1B /* RisingSun-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8478BF0A1F06EDD7001C5A1B /* RisingSun-Black.otf */; };
 		8478BF0C1F06EDE4001C5A1B /* RisingSun-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8478BF091F06EDCF001C5A1B /* RisingSun-Bold.otf */; };
 		84E3A40E1EFE606100262218 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E3A40D1EFE606100262218 /* MainViewController.m */; };
 		84E3A4111EFE64A700262218 /* Algorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E3A4101EFE64A700262218 /* Algorithm.m */; };
-		84F0B8D91F0A4B860024CD83 /* emaxx.json in Resources */ = {isa = PBXBuildFile; fileRef = 84F0B8D81F0A4B860024CD83 /* emaxx.json */; };
 		84FF4E001EFE6A3600D385EA /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF4DFE1EFE6A3600D385EA /* MainView.m */; };
 		84FF4E091EFE6F1E00D385EA /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF4E081EFE6F1E00D385EA /* TopicViewController.m */; };
 		84FF4E0C1EFE6F3C00D385EA /* TopicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FF4E0B1EFE6F3C00D385EA /* TopicView.m */; };
@@ -46,6 +46,7 @@
 		8467CFBA1EFEDFED002BC233 /* TopicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicTableViewCell.h; sourceTree = "<group>"; };
 		8467CFBC1EFEECC6002BC233 /* UIColor+CustomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColor.h"; sourceTree = "<group>"; };
 		8467CFBD1EFEECC6002BC233 /* UIColor+CustomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColor.m"; sourceTree = "<group>"; };
+		846B97AD1F1F6BE8007200CC /* emaxx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emaxx.json; sourceTree = "<group>"; };
 		8478BF071F06EDC6001C5A1B /* RisingSun-Bold.sfd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "RisingSun-Bold.sfd"; sourceTree = "<group>"; };
 		8478BF091F06EDCF001C5A1B /* RisingSun-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RisingSun-Bold.otf"; sourceTree = "<group>"; };
 		8478BF0A1F06EDD7001C5A1B /* RisingSun-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RisingSun-Black.otf"; sourceTree = "<group>"; };
@@ -53,7 +54,6 @@
 		84E3A40D1EFE606100262218 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		84E3A40F1EFE64A700262218 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
 		84E3A4101EFE64A700262218 /* Algorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Algorithm.m; sourceTree = "<group>"; };
-		84F0B8D81F0A4B860024CD83 /* emaxx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = emaxx.json; sourceTree = "<group>"; };
 		84FF4DFE1EFE6A3600D385EA /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 		84FF4DFF1EFE6A3600D385EA /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
 		84FF4E071EFE6F1E00D385EA /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
@@ -127,7 +127,7 @@
 				84013C521EFD100800FA12B4 /* Assets.xcassets */,
 				84013C541EFD100800FA12B4 /* LaunchScreen.storyboard */,
 				84013C571EFD100800FA12B4 /* Info.plist */,
-				84F0B8D81F0A4B860024CD83 /* emaxx.json */,
+				846B97AD1F1F6BE8007200CC /* emaxx.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -235,7 +235,7 @@
 				8478BF081F06EDC6001C5A1B /* RisingSun-Bold.sfd in Resources */,
 				84013C561EFD100800FA12B4 /* LaunchScreen.storyboard in Resources */,
 				8478BF0B1F06EDE0001C5A1B /* RisingSun-Black.otf in Resources */,
-				84F0B8D91F0A4B860024CD83 /* emaxx.json in Resources */,
+				846B97AE1F1F6BE8007200CC /* emaxx.json in Resources */,
 				84FF4E131EFE9A0700D385EA /* RisingSun-Regular.otf in Resources */,
 				84013C531EFD100800FA12B4 /* Assets.xcassets in Resources */,
 			);

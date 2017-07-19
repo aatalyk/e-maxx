@@ -29,6 +29,8 @@
     
     NSArray *topics = dictionary[@"topics"];
     
+    printf("%ld", topics.count);
+    
     NSMutableArray *titles = [[NSMutableArray alloc] init];
     
     for(NSDictionary *topic in topics) {

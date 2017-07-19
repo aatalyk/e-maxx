@@ -28,6 +28,7 @@
     
     self.webView = [[UIWebView alloc] init];
     self.webView.backgroundColor = [UIColor whiteColor];
+    self.webView.multipleTouchEnabled = YES;
     [self.webView setTranslatesAutoresizingMaskIntoConstraints:NO];
     [self addSubview:self.webView];
 }

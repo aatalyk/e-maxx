@@ -31,6 +31,8 @@
                                                                          action:@selector(returnViewController)];
     self.navigationItem.leftBarButtonItem = leftBarButtonItem;
     
+    self.title = self.algorithm.title;
+    
     self.chapterView = [[ChapterView alloc] init];
     self.chapterView.algorithm = self.algorithm;
     [self.chapterView setTranslatesAutoresizingMaskIntoConstraints:NO];
