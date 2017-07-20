@@ -73,7 +73,6 @@
     TopicTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ChapterCell"];
     Algorithm *algorithm = self.chapterArray[indexPath.row];
     cell.titleLabel.text = algorithm.title;
-    cell.titleLabel.font = [UIFont risingSunRegular];
     return cell;
 }
 

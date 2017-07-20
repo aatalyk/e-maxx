@@ -11,7 +11,7 @@
 @implementation UIColor (CustomColor)
 
 +(UIColor*)cellBackgroundColor {
-    return [UIColor colorWithRed:248.0f/255.0f green:248.0f/255.0f blue:250.0f/255.0f alpha:1.0f];
+    return [UIColor colorWithRed:242.0f/255.0f green:241.0f/255.0f blue:249.0f/255.0f alpha:1.0f];
 }
 
 +(UIColor*)emaxxMainColor {

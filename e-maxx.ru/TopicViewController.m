@@ -6,6 +6,8 @@
 //  Copyright © 2017 AAkash. All rights reserved.
 //
 #import "TopicView.h"
+#import "UIFont+CustomFont.h"
+#import "UIColor+CustomColor.h"
 #import "TopicViewController.h"
 #import "ChapterViewController.h"
 

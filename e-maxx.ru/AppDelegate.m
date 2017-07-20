@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "UIFont+CustomFont.h"
 #import "MainViewController.h"
 #import "UIColor+CustomColor.h"
 
@@ -25,10 +26,13 @@
     MainViewController *mainViewController = [[MainViewController alloc] init];
     UINavigationController *mainNavigationController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
-    [[UINavigationBar appearance] setBarTintColor:[UIColor emaxxMainColor]];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor blackColor]];
     [[UINavigationBar appearance] setTranslucent:NO];
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
-    
+    [[UINavigationBar appearance] setTitleTextAttributes:@{
+                                                           NSForegroundColorAttributeName:[UIColor whiteColor],
+                                                           NSFontAttributeName:[UIFont risingSunBold]}];
+     
     self.window.rootViewController = mainNavigationController;
     
     return YES;
